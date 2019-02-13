@@ -1,4 +1,4 @@
-require "pry"
+
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -61,7 +61,6 @@ def runner
   
 end 
   end_game(card_tot)
-  binding.pry
 end
 
     
